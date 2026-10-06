@@ -48,7 +48,7 @@ Code examples in the lessons are small and often come from a different domain th
 ## Working with Claude
 
 Polish or English both work. Useful phrases:
-- "hint" or "podpowiedź" when you are stuck. Ask again if the first hint is not enough, and you get a more specific one.
+- "hint" or "podpowiedź" (or `/hint 1.3`) when you are stuck. Hints have three levels: the concept with a docs link, then where and how, then a short example from a different context. Say "more" or "więcej" to get the next level.
 - "review 1.3" (or `/review-lesson 1.3`) when you finish a lesson.
 - "show me the solution for the cart reducer" when you want to see the code for one part.
 - "write module 3" (or `/write-module 3`) when you finish module 2. It works in a new session too.
