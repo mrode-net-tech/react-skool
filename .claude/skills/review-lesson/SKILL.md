@@ -16,7 +16,7 @@ Lesson: $ARGUMENTS. If no lesson is given, take the lesson of the learner's late
    - gaps in the tests
 
    The learner writes the fixes. Show code only when they ask for the solution to a specific part.
-3. Add an entry to `course/progress.md` in the format at the top of that file: lesson, date, verdict, and notes with the items to revisit.
-4. Commit only `course/progress.md`, with the message `docs(progress): review <lesson>`.
+3. Add a review entry to `course/progress.md`, in the review format at the top of that file: lesson, date, verdict, and notes with the items to revisit.
+4. Commit only `course/progress.md`, with the message `docs(progress): review <lesson>`. The commit also picks up any hint entries that are not committed yet.
 
 The review is done when the learner has the report and `progress.md` has the entry.
